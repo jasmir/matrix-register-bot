@@ -35,6 +35,7 @@ When using `operationMode=local` you can have the following benefits (some requi
 ## How to install
 
 - Copy `config.sample.php` to `config.php` and configure the bot as you can find there
+- Create config.json in the install directory and make it writeable by webserver (touch config.json && chmod 0666 config.json)
 - Configure your webserver to have the folder `public` accessible via web.
   The folder `internal` contains files that only provide API access. They can be accessed by mxisd or matrix-synapse-rest-auth 
 - To integrate with [matrix-synapse-rest-auth](https://github.com/kamax-io/matrix-synapse-rest-auth):
