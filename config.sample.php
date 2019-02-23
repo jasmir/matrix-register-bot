@@ -32,6 +32,8 @@ $config = [
 
     // to define where the data should be stored:
     "databaseURI" => "sqlite:" . dirname(__FILE__) . "/db_file.sqlite",
+    // mysql example
+    // "databaseURI" => "mysql:host=localhost;dbname=matrixRegisterBot",
     // credentials for sqlite not used
     "databaseUser" => "dbUser123",
     "databasePass" => "secretPassword",
